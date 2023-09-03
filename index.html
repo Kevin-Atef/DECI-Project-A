@@ -3,193 +3,274 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>K-Blog</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>STEM Mentorship</title>
+    <link rel="icon" href="assets/images/icon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
-    <nav class="nav">
-        <div id="nav" class="container">
-            <a id="logo" class="nav" href="index.html">K-Blog</a>
-            <div class="nav-items">
-                <ul class="nav">
-                    <a class="nav" href="index.html">
-                        <li class="nav">Homepage</li>
+    <header>
+        <div class="container">
+            <nav>
+                <a href="index.html">
+                    <li class="nav-li" id="nav-title">STEM Mentorship</li>
+                </a>
+                <ul id="nav-ul">
+                    <a href="index.html">
+                        <li class="nav-li">Home</li>
                     </a>
-                    <a class="nav" href="">
-                        <li class="nav">About</li>
+                    <a href="contact.html">
+                        <li class="nav-li">Contact</li>
                     </a>
-                    <a class="nav" href="">
-                        <li class="nav">Contact</li>
+                    <a href="join.html">
+                        <li class="nav-li">Join</li>
+                    </a>
+                    <a href="about.html">
+                        <li class="nav-li">About</li>
                     </a>
                 </ul>
-
-                <form action="" method="get">
-                    <input class="search" type="search" name="search" placeholder="Search..">
-                    <button class="search" type="submit">Submit</button>
-                </form>
-            </div>
-    </nav>
+            </nav>
+        </div>
+    </header>
     <main>
-        <section class="our-blog">
-            <div class="containter">
-                <h1>Our Blog</h1>
-                <div class="rectangle"></div>
+        <section id="home-promoter">
+            <div class="container">
+                <div class="heading">
+                    <h1>Studying for the STEM entrance test?</h1>
+                    <h1>Join us now!</h1> 
+                    <p>We are a team of STEM students who want to help grade 9 students ace the entrance test. STEM
+                        Mentorship is voluntary, and the mentorship is 100% for free! We've been doing this for
+                        3 years, and this is our 4th year! </p> <br>
+                    <div class="button-container">
+                        <a href="https://t.me/stemship" target="_blank">
+                            <div class="button">Join Us!</div>
+                        </a>
+                    </div>
+                </div>
+                <img src="assets/images/logo_with_badge.png" alt="stem-ship" id="main-logo">
             </div>
         </section>
-        <section class="cards">
+        <section id="subjects">
             <div class="container">
-                <div class="card" id="first">
-                    <img src="assets/images/thumbnails/new-york.jpg" alt="new-york" class="thumbnail"><a href="#"
-                        class="tag" title="See similar tags.">ARCHITECTURE</a>
-                    <a href="blog-posts/post1.html" class="title-link">
-                        <h3 class="title">How the New York landscape shaped modern architecture.</h3>
-                    </a>
-                    <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse harum nobis
-                        explicabo asperiores dolor ad commodi facere eum dignissimos ullam debitis aspernatur totam
-                        culpa
-                        omnis blanditiis facilis maiores, earum eaque!</p>
-                    <div class="author-details">
-                        <img src="assets/images/authors/author1.webp" alt="nick-smith" class="profile"><a href="#"
-                            title="Read more from the author." class="author">Nick Smith</a>
-                        <p class="date">Two days ago</p>
+                <div class="heading">
+                    <br>
+                    <h1>Ace the Four Sections.</h1>
+                    <p>The entrance test contains four sections: Mathematics, Science, English, and IQ. We have
+                        specialized mentors for each section, and they will answer any question that you have. Also, we
+                        have materials available to help you prepare and excel in each section of the entrance test.
+                    </p>
+                    <br>
+                    <div class="squares">
+                        <div class="square">
+                            <img src="assets/images/subjects/math.png" alt="math">
+                            Math
+                        </div>
+                        <div class="square">
+                            <img src="assets/images/subjects/science.png" alt="science">
+                            Science
+                        </div>
+                        <div class="square">
+                            <img src="assets/images/subjects/english.png" alt="english">
+                            English
+                        </div>
+                        <div class="square">
+                            <img src="assets/images/subjects/iq.png" alt="iq">
+                            IQ
+                        </div>
                     </div>
+                    <br>
+                    <br>
                 </div>
+            </div>
+        </section>
+        <section id="feedback">
+            <div class="container">
+                <div class="heading">
+                    <h1>Our Students Say:</h1>
+                    <p>After the year was finished, we sent a survey asking students about the school they were admitted
+                        to and their thoughts about the mentorship. This is what they said. </p> <br>
+                    <div class="quote">
+                        <div class="quote-text" dir='rtl' lang='ar'>
+                            <span>"الجروب ده ساعدني جدا جدا والله اخش الامتحان بثقه، يعني بجد مش عارف اشكركم ازاي، بسبب
+                                ربنا ثم
+                                انتم دخلت ستيم اكتوبر رغبه اولي"</span>
+                            <div class="admitted-school"><span>Admitted to</span> STEM October</div>
+                        </div>
+                        <div class="quote-text" dir='rtl' lang='ar'>
+                            <span>"جزاكم الله خيرا💕"</span>
+                            <div class="admitted-school"><span>Admitted to</span> STEM Alexandria</div>
+                        </div>
+                        <div class="quote-text" dir='rtl' lang='ar'>
+                            <span>"بجد كان مفيد جدا"</span>
+                            <div class="admitted-school"><span>Admitted to</span> STEM Alexandria</div>
+                        </div>
 
-                <div class="card" id="second">
-                    <img src="assets/images/thumbnails/tesla.jpg" alt="tesla" class="thumbnail"><a href="#" class="tag"
-                        title="See similar tags.">AUTOMOTIVE</a>
-                    <a href="#" class="title-link">
-                        <h3 class="title">Will electric cars replace their gas counterparts?</h3>
-                    </a>
-                    <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse harum nobis
-                        explicabo asperiores dolor ad commodi facere eum dignissimos ullam debitis aspernatur totam
-                        culpa
-                        omnis blanditiis facilis maiores, earum eaque!</p>
-                    <div class="author-details">
-                        <img src="assets/images/authors/author2.jpg" alt="kali-ayaan" class="profile"><a href="#"
-                            title="Read more from the author." class="author">Kali Ayaan</a>
-                        <p class="date">29 March 2022</p>
+                        <div class="quote-text" dir='rtl' lang='ar'>
+                            <span>"بجد بجد شكرا علي مجهوداتكم معانا كل الشباب عملو ال عليهم وبجد فادتني جدا
+                                "</span>
+                            <div class="admitted-school"><span>Admitted to</span> STEM Gharbia</div>
+                        </div>
+
+                        <div class="quote-text" dir='rtl' lang='ar'>
+                            <span>"الجروب ساعدني في إني اتدرب على شكل امتحان القبول شكرا ليكوا 
+                                "</span>
+                            <div class="admitted-school"><span>Admitted to</span> STEM Maadi</div>
+                        </div>
+
+                        <div class="quote-text" dir='rtl' lang='ar'>
+                            <span>"حرفيًا انا مبسوطة إني تابعت الشانيل بتاعة مينتورشيب
+                                الفورمز اللي كنتوا بتنزلوها كل يوم ساعدتني خالص وعودتني علي شكل الإمتحان و الوقت
+                                ممتنة لتعبكوا كلكوا حقيقي"
+                                </span>
+                            <div class="admitted-school"><span>Admitted to</span> STEM Maadi</div>
+                        </div>
+
+                        <div class="quote-text" dir='rtl' lang='ar'>
+                            <span>"تيم جامد جدا واستفدت منكم جدا وانتم سبب من الأسباب اللى خليتنى اتقبل بعد ربنا طبعا وانا متشكر ليكوا جدا ✨🤍"</span>
+                            <div class="admitted-school"><span>Admitted to</span> STEM October</div>
+                        </div>
+
+                        <div class="quote-text" dir='rtl' lang='ar'>
+                            <span>"الاختبارات اللي كنتوا بتعملوها كانت مفيدة جدا الصراحة جزاكم الله خيرا"</span>
+                            <div class="admitted-school"><span>Admitted to</span> STEM Red Sea</div>
+                        </div>
+
+                        <div class="quote-text" dir='rtl' lang='ar'>
+                            <span>"الحمد لله اتقبلت و الامتحانات استفدت منها جدا حقيقى و اتقبلت رغبة اولى كمان"</span>
+                            <div class="admitted-school"><span>Admitted to</span> STEM Sharqia</div>
+                        </div>
+
+                        <div class="quote-text" dir='rtl' lang='ar'>
+                            <span>"شكرًا للتيم الجميل اللي ساعدنا فترة الامتحانات وقبل والتحفيز اللي ادوه لينا ربنا يوفقكم كلكم 💕"</span>
+                            <div class="admitted-school"><span>Admitted to</span> STEM Assiut</div>
+                        </div>
+
+                        <div class="quote-text" dir='rtl' lang='ar'>
+                            <span>"بجد كان مفيد"</span>
+                            <div class="admitted-school"><span>Admitted to</span> STEM October</div>
+                        </div>
+
+                        <div class="quote-text" dir='rtl' lang='ar'>
+                            <span>"الإمتحانات كانت مفيده جدا جدا وانقذتني بصراحه قبل الامتحان بيوم واحسن حاجه ان كان فيه تصحيح للاسئله وأفكار الامتحان كانت شبهها بالظبط"</span>
+                            <div class="admitted-school"><span>Admitted to</span> STEM Maadi</div>
+                        </div>
+
+                        <div class="quote-text">
+                            <span>"It is a great experience and I have the pleasure to start my long journey in STEM with you all."</span>
+                            <div class="admitted-school"><span>Admitted to</span> STEM Obour</div>
+                        </div>
+
+                        <div class="quote-text" dir='rtl' lang='ar'>
+                            <span>"السلام عليكم مبدايا الصراحة الجروب فادني جامد وكانت امتحانات نفس مستوي الامتحان أو اصعب وكمان مفيش يوم متنزلش فيه امتحانات جديدة وكل الشغالين في الجروب مبيتكاسلوش خالص في التنزيل اليومي للامتحانات واتمني الجروب ده ينزل امتحانات كل سنة للعايزين يدخلو المدرسة"</span>
+                            <div class="admitted-school"><span>Admitted to</span> STEM Qenna</div>
+                        </div>
+                        <div class="quote-text">
+                            <span>"It was a new experience and I've known lots of people who are very kind and were nice to me and other people. I've met new friends there and I'm satisfied by the results of my work and all of that was because Allah's guidance and your help. And it comes to me to thank you again I really appreciate your work and that you have wasted your time for helping us."</span>
+                            <div class="admitted-school"><span>Admitted to</span> STEM Obour</div>
+                        </div>
+                        <div class="quote-text" dir='rtl' lang='ar'>
+                            <span>"💖استفدت من الامتحانات الآلى كنتم بتنازلوها و شكرا جداعلى تعبكوا"</span>
+                            <div class="admitted-school"><span>Admitted to</span> STEM Qalyubia</div>
+                        </div>
+                        <div class="quote-text" dir='rtl' lang='ar'>
+                            <span>"الأدمن متعاون جدا معانا واستفدت كتير اوى من حلهم للإختبارات السابقة وأى تدريب وشرح أى جزئية والماتريالز والنصائح وانا استفدت جدا جدا الحمد لله"</span>
+                            <div class="admitted-school"><span>Admitted to</span> STEM Obour</div>
+                        </div>
+                        <div class="quote-text" dir='rtl' lang='ar'>
+                            <span>"الحمد لله انا اتقبلت ف ستيم رغبه تانيه العبور و بجد في حاجات كتير استفدت منكم فيها شكرا"</span>
+                            <div class="admitted-school"><span>Admitted to</span> STEM Obour</div>
+                        </div>
+                        <div class="quote-text" dir='rtl' lang='ar'>
+                            <span>"الحمدلله كان الكورس مفيد جدا"</span>
+                            <div class="admitted-school"><span>Admitted to</span> STEM Sadat</div>
+                        </div>
+                        <div class="quote-text" dir='rtl' lang='ar'>
+                            <span>"انا الحمدلله اتقبلت في استيم إسكندرية رغبة اولى ترتيب ٦٦ على الجمهوريه و ما توفيقى الا بالله"</span>
+                            <div class="admitted-school"><span>Admitted to</span> STEM Alexandria</div>
+                        </div>
+                        <div class="quote-text" dir='rtl' lang='ar'>
+                            <span>"شكرا ليكم بجد فدتوني كتير"</span>
+                            <div class="admitted-school"><span>Admitted to</span> STEM Ismailia</div>
+                        </div>
+                        <div class="quote-text" dir='rtl' lang='ar'>
+                            <span>"كانت تجربة كويسة بجد وفادتني كتير لما دخلت الامتحان وعودتني على اسئلة الرياضيات بالذات دخلت الامتحان جه كذا سؤال مش فاكرة بالظبط بس استفدت كتير وربنا يوفقكم ويوفقك الراغبين الجايين بإذن الله."</span>
+                            <div class="admitted-school"><span>Admitted to</span> STEM Maadi</div>
+                        </div>
+                        <div class="quote-text" dir='rtl' lang='ar'>
+                            <span>"تجربه كانت متعبه بس جميله والحمدلله اتقبلت"</span>
+                            <div class="admitted-school"><span>Admitted to</span> STEM Red Sea</div>
+                        </div>
+                        <div class="quote-text" dir='rtl' lang='ar'>
+                            <span>"الحمد لله استفدت بالامتحانات الي اتعملت"</span>
+                            <div class="admitted-school"><span>Admitted to</span> STEM Qalyubia</div>
+                        </div>
+                        <div class="quote-text" dir='rtl' lang='ar'>
+                            <span>"الكورس كان ممتاز جدا بصراحة"</span>
+                            <div class="admitted-school"><span>Admitted to</span> STEM October</div>
+                        </div>
+                        <div class="quote-text" dir='rtl' lang='ar'>
+                            <span>"حرفيا انا حابب اشكركوا جاامد لانكوا ساعدتونا كتير واستفدت منكوا حاجات كتير اوى"</span>
+                            <div class="admitted-school"><span>Admitted to</span> STEM Bani Sweif</div>
+                        </div>
                     </div>
+                    <br>
+                    <button id="resume" onclick="resume()">
+                        Resume
+                    </button>
+                    <button id="pause" onclick="pause()"">
+                        Pause
+                    </button>
+
                 </div>
-
-                <div class="card" id="third">
-                    <img src="assets/images/thumbnails/healthy-food.webp" alt="healthy-food" class="thumbnail"><a
-                        href="" class="tag" title="See similar tags.">FOOD</a>
-                    <a href="#" class="title-link">
-                        <h3 class="title">Food recipes that are easy to make and healthy.</h3>
-                    </a>
-                    <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse harum nobis
-                        explicabo asperiores dolor ad commodi facere eum dignissimos ullam debitis aspernatur totam
-                        culpa
-                        omnis blanditiis facilis maiores, earum eaque!</p>
-                    <div class="author-details">
-                        <img src="assets/images/authors/author3.jpg" alt="kevin-adams" class="profile"><a href="#"
-                            title="Read more from the author." class="author">Kevin Adams</a>
-                        <p class="date">3 Hours ago</p>
+            </div>
+        </section>
+        <section id="media">
+            <div class="container">
+                <div class="heading">
+                    <br>
+                    <h1>The Mentorship's Advantage.</h1>
+                    <p>Our mentorhsip combines engaging shorts & video content, interactive sessions, and frequent tests that simulate the real one. Also, we always read the group chat, and we actively reply to requests and questions.
+                    </p>
+                    <br>
+                    <div class="squares">
+                        <div class="square">
+                            <img src="assets/images/program/video.png" alt="video">
+                            Videos
+                        </div>
+                        <div class="square">
+                            <img src="assets/images/program/sessions.webp" alt="sessions">
+                            Sessions
+                        </div>
+                        <div class="square">
+                            <img src="assets/images/program/test.png" alt="test">
+                            Tests
+                        </div>
+                        <div class="square">
+                            <img src="assets/images/program/chat.png" alt="chat">
+                            Chat
+                        </div>
                     </div>
-                </div>
-
-                <div class="card" id="fourth">
-                    <img src="assets/images/thumbnails/smartphones.jpg" alt="smartphones" class="thumbnail"><a href="#"
-                        class="tag" title="See similar tags.">TECHNOLOGY</a>
-                    <a href="#" class="title-link">
-                        <h3 class="title">Have we reached the limit of smartphone computing?</h3>
-                    </a>
-                    <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse harum nobis
-                        explicabo
-                        asperiores dolor ad commodi facere eum dignissimos ullam debitis aspernatur totam culpa omnis
-                        blanditiis
-                        facilis maiores, earum eaque!</p>
-                    <div class="author-details">
-                        <img src="assets/images/authors/author4.jpg" alt="Anna John" class="profile"><a href="#"
-                            title="Read more from the author." class="author">Anna John</a>
-                        <p class="date">25 Dec 2022</p>
-                    </div>
-                </div>
-
-                <div class="card" id="fifth">
-                    <img src="assets/images/thumbnails/ps5.jpg" alt="ps5" class="thumbnail"><a href="" class="tag"
-                        title="See similar tags.">GAMING</a>
-                    <a href="#" class="title-link">
-                        <h3 class="title">Top 10 games you need to try if you have a Playstation 5!</h3>
-                    </a>
-                    <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse harum nobis
-                        explicabo
-                        asperiores dolor ad commodi facere eum dignissimos ullam debitis aspernatur totam culpa omnis
-                        blanditiis
-                        facilis maiores, earum eaque!</p>
-                    <div class="author-details">
-                        <img src="assets/images/authors/author5.jpg" alt="" class="profile"><a href="#"
-                            title="Read more from the author." class="author">James Robert</a>
-                        <p class="date">Yesterday</p>
-                    </div>
-                </div>
-
-                <div class="card" id="sixth">
-                    <img src="assets/images/thumbnails/airpods-max.jpg" alt="airpods-max" class="thumbnail"><a href="#"
-                        class="tag" title="See similar tags.">AUDIOPHILE</a>
-                    <a href="#" class="title-link">
-                        <h3 class="title">Has Dolby Atmos improved Airpods Max's audio quality?</h3>
-                    </a>
-                    <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse harum nobis
-                        explicabo
-                        asperiores dolor ad commodi facere eum dignissimos ullam debitis aspernatur totam culpa omnis
-                        blanditiis
-                        facilis maiores, earum eaque!</p>
-                    <div class="author-details">
-                        <img src="assets/images/authors/author6.webp" alt="noah-liah" class="profile"><a href="#"
-                            title="Read more from the author." class="author">Noah Liah</a>
-                        <p class="date">25 Jan 2023</p>
-                    </div>
+                    <br>
+                    <br>
                 </div>
             </div>
         </section>
     </main>
     <footer class="footer">
-        <div class="container">
-
-            <div class="top-footer">
-                <a id="logo2" class="footer" href="index.html">K-Blog</a>
-                <div class="links">
-                    <div id="group1">
-                        <a href="#" class="link">TICKET SUBMISSION</a><a href="#" class="link">WEEBLY THEMES</a><a
-                            href="#" class="link">FAQs PAGE</a>
-                    </div>
-                    <div id="group2">
-                        <a href="#" class="link">SERVICES</a><a href="#" class="link">STORE</a>
-                    </div>
-                    <div id="group3">
-                        <a href="#" class="link">WIDGETKIT</a><a href="#" class="link">SHOWCASE</a><a href="#"
-                            class="link">SUPPORT</a>
-                    </div>
-                    <div id="group3">
-                        <a href="#" class="link">HOMEPAGE</a><a href="#" class="link">RESOURCES</a><a href="#"
-                            class="link">CONTACT</a><a href="#" class="link">ABOUT</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="line"></div>
-
+        <div class="container">            
             <div class="bottom-footer">
-                <ul class="social-icons">
-                    <li><a href="https://www.facebook.com/"><i class="fa fa-facebook fa-2x" aria-hidden="false"></i></a>
-                    </li>
-                    <li><a href="https://www.instagram.com/"><i class="fa fa-instagram fa-2x"
-                                aria-hidden="true"></i></a></li>
-                    <li><a href="https://www.pinterest.com/"><i class="fa fa-pinterest-p fa-2x"
-                                aria-hidden="true"></i></a>
-                    </li>
-                    <li><a href="https://twitter.com/"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a></li>
-                </ul>
-                <p>Copyright © 2023 K-Blog. All rights reserved.</p>
+                <p id="copyright">Copyright © 2023 stemship. All rights reserved.</p>
             </div>
         </div>
     </footer>
+    <script src="scripts/script.js"></script>
 </body>
 
 </html>
